@@ -1,0 +1,31 @@
+<?php $form = $this->form; ?>
+<?php $form->setAttribute('action', $this->url('site-login')); ?>
+<?php $form->prepare(); ?>
+<?php echo $this->form()->openTag($form) ?>
+
+<div class="form-group <?php echo count($form->get('username')->getMessages()) > 0 ? 'has-error' : '' ?>">
+  <?php echo $this->formLabel($form->get('username')); ?>
+  <div class="col-sm-5">
+    <?php echo $this->formElement($form->get('username')); ?>
+    <?php echo $this->formElementErrors()
+            ->setMessageOpenFormat('<div class="help-inline emsg">')
+            ->setMessageSeparatorString('</div><div class="help-inline emsg">')
+            ->setMessageCloseString('</div>')
+            ->render($form->get('username')); ?>
+  </div>
+</div>
+
+<div class="form-group <?php echo count($form->get('password')->getMessages()) > 0 ? 'has-error' : '' ?>">
+  <?php echo $this->formLabel($form->get('password')); ?>
+  <div class="col-sm-5">
+    <?php echo $this->formElement($form->get('password')); ?>
+    <?php echo $this->formElementErrors($form->get('password')); ?>
+  </div>
+</div>
+
+<div class="form-group">
+  <div class="col-sm-offset-2 col-sm-10">
+    <?php echo $this->formElement($form->get('login')); ?>
+    <?php echo $this->formElement($form->get('csrf')); ?>
+  </div>
+</div>

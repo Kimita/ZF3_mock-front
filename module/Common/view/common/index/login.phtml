@@ -1,0 +1,36 @@
+<div class="row">
+
+<div id="main-block" class="col-md-12">
+
+<div id="login-display-block" class="panel panel-default">
+
+<div class="panel-heading">
+<h3>ログイン</h3>
+</div>
+
+<div class="panel-body">
+
+<?php if (!empty($status) && !empty($status['message'])): ?>
+  <div class="alert <?php echo $status['result'] ? 'alert-info':'alert-danger'; ?>">
+    <?php foreach ($status['message'] as $msg):?>
+        <?php if($msg): ?><div><?php echo $msg; ?></div><?php endif; ?>
+    <?php endforeach; ?>
+  </div>
+<?php endif; ?>
+
+<?php echo $this->partial('forms/login-form.phtml', array('form'=>$loginForm)); ?>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+<pre>
+<?php
+    if (array_key_exists('user', $status)) {
+        var_dump($status['user']);
+    }
+?>
+</pre>
