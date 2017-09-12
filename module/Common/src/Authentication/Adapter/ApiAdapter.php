@@ -27,14 +27,6 @@ class ApiAdapter implements AdapterInterface
         return $this;
     }
 
-    public function setUserData(array $data)
-    {
-        if (array_key_exists('id', $data) && array_key_exists('username', $data)) {
-            $this->userData = $data;
-        }
-        return $this;
-    }
-
     /**
       * {@inheritDoc}
       * @see \Zend\Authentication\Adapter\AdapterInterface::authenticate()

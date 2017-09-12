@@ -1,7 +1,7 @@
 <?php
 namespace Common\Model\Entity;
 
-class Identity
+class Identity extends BaseEntity
 {
 
     protected $id;

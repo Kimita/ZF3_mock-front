@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <buildpath>
-	<buildpathentry kind="src" path=""/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-component-installer/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-mvc-i18n/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-eventmanager/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-validator/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-form/autoload"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-json/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-i18n/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-hydrator/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-router/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-config/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-inputfilter/src"/>
+	<buildpathentry kind="src" path="vendor/container-interop/container-interop/src/Interop/Container"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-math/src"/>
+	<buildpathentry kind="src" path="vendor/composer"/>
+	<buildpathentry kind="src" path="vendor/paragonie/random_compat/lib"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-log/src"/>
+	<buildpathentry kind="src" path="vendor/psr/log/Psr/Log"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-authentication/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-view/src"/>
 	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
+	<buildpathentry kind="src" path="module/Common/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-session/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-escaper/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-mvc-plugin-flashmessenger/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-modulemanager/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-uri/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-filter/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-servicemanager/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-form/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-http/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-loader/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-stdlib/src"/>
+	<buildpathentry kind="src" path="vendor/psr/container/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-mvc/src"/>
 </buildpath>
